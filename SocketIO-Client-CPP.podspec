@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
     	:type => 'MIT',
     	:file => 'LICENSE'
     	}
-    s.platform      = :ios, '7.0'
+    s.ios.deployment_target = '6.0'
+    s.osx.deployment_target = '10.7'
     s.requires_arc  = true
     s.authors       = {
       "Melo Yao" => "melode11@gmail.com"
@@ -18,7 +19,6 @@ Pod::Spec.new do |s|
         :git => "https://github.com/hfossli/SocketIO-Client-CPP-iOS-Builds.git",
         :tag => s.version.to_s
         }
-
     s.vendored_libraries = 'libUniversalRelease.a'
     s.public_header_files = 'Headers/*.h'
     s.preserve_paths = 'Headers/*.h'
