@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name          = "SocketIO-Client-CPP"
-    s.version       = "1.5.0.1"
+    s.version       = "1.6.0"
     s.summary       = "SocketIO-Client-CPP"
     s.homepage      = "https://github.com/hfossli/SocketIO-Client-CPP-iOS-Builds"
     s.license       = {
