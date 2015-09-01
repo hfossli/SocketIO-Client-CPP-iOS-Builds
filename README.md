@@ -1,6 +1,6 @@
 # Socket.IO C++ Client Builds
 
-This repository contains the Socket.IO C++ client. Built from https://github.com/socketio/socket.io-client-cpp. Tag reflects tag on repo.
+Static libraries for the [Socket.IO C++ client](https://github.com/socketio/socket.io-client-cpp). 
 
 ## Cocoapods
 
