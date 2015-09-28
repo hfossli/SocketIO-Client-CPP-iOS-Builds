@@ -29,6 +29,6 @@ Create one for
 
 Join the debug libraries and the release libraries with e.g.
 ```
-libtool -static -o libUniversalRelease.a libsioclient-release-iphoneos.a libsioclient-release-iphonesim.a 
-libtool -static -o libUniversalDebug.a libsioclient-debug-iphoneos.a libsioclient-debug-iphonesim.a
+libtool -static -o libUniversalRelease.a Release-iphoneos/libsioclient.a Release-iphonesimulator/libsioclient.a
+libtool -static -o libUniversalDebug.a Debug-iphoneos/libsioclient.a Debug-iphonesimulator/libsioclient.a 
 ```
